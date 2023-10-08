@@ -53,7 +53,8 @@
   },
   "scripts": {
     "build": "bundt",
-    "test": "node test"
+    "test": "node test",
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">=8"
